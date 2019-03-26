@@ -88,3 +88,55 @@ for(let x = 1; x <= 100; x++){
     // remove it from the array using .splice()
     
     jimHaff.splice(3, 2,);
+
+
+//Yell at the Ninja Turtles
+
+//Create an array with the members of the ninja turtles 
+//(Donatello, Leonardo, Raphael, Michaelangelo)
+
+const heros = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+
+//Use a for loop to call .toUpperCase() on each of them 
+//and print out the result.
+
+for(let i = 0; i < heros.length; i++){
+    console.log(heros[i].toUpperCase());{
+    } 
+}
+
+// Bonus: Modify the answer you just wrote. Instead of all letters 
+// being uppercase, make the letters alternate back and forth between 
+// uppercase and lowercase.
+
+
+
+
+
+
+
+
+    // const alternate = () => {
+//     let names ["turtle name"]
+// }
+
+//  for (let i = 0; i <names.length; i++) {
+//      let string = ""
+//      for (let j = 0; j< names[i].length; j++){
+//          if(j % 2 === 0) {
+//              string += toUppercase(names[i][j])
+//          }
+
+//      } console.log(string)
+//  }
+
+
+
+ //////
+//  HOMEWORK NOTES 
+
+// const digitSum () => {
+//   const numToString = num.tostring().split(" ") = ["4", "3", "4", "5"] 
+//   let count = 0
+//   for(let i = 0; i <numtoArray.length)
+// }
