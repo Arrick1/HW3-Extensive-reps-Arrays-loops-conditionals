@@ -110,6 +110,64 @@ for(let i = 0; i < heros.length; i++){
 // uppercase and lowercase.
 
 
+// Return of the Closets
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  //Alien Attire 
+  // Kristyn's left shoe has traveled through time and space and 
+  //turned up in Thom's accessories drawer! Remove Kristyn's shoe 
+  //from the array and save it to the variable kristynsShoe.
+  
+  kristynsCloset.splice(0,1); const kristynsShoe = "left shoe";
+
+  //Use that variable to add Kristyn's lost shoe to 
+//Thom's accessories array. 
+thomsCloset.push(kristynsShoe); 
+
+// Dress em' up
+//Modify your code to put together 3 separate outfits for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!
+const outfit1 = `Kristyn is wearing her ${kristynsCloset[3]+ ", "+ kristynsCloset[2]+", and "+ kristynsCloset[0]}.`;
+const outfit2 = `Thom is wearing a ${thomsCloset[0][0]+ ", "+ thomsCloset[1][2] +", and "+ thomsCloset[2][2]}.`;
+const outfit3 = `Thom is gender neutral and wants Kristyn's clothes. Thom decided to change and is now is wearing 
+${kristynsCloset[4]+ ", "+ thomsCloset[1][0]+", and "+ thomsCloset[3]}.`;
+console.log(outfit1);
+console.log(outfit2);
+console.log(outfit3);
+ 
+  
+
+
+
 
 
 
