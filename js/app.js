@@ -165,36 +165,18 @@ console.log(outfit2);
 console.log(outfit3);
  
   
+// Dirty Laundry
+// Continue looking at the closet arrays:
 
+// Time to do laundry - loop through Kristyn's closet and log 
+// the sentence "WHIRR: Now washing (item)" for each item in the array.
+for(let i = 0; i<kristynsCloset.length; i++){
+    console.log("WHIRR: Now washing"+ kristynsCloset[i]);
+};
 
-
-
-
-
-
-
-
-    // const alternate = () => {
-//     let names ["turtle name"]
-// }
-
-//  for (let i = 0; i <names.length; i++) {
-//      let string = ""
-//      for (let j = 0; j< names[i].length; j++){
-//          if(j % 2 === 0) {
-//              string += toUppercase(names[i][j])
-//          }
-
-//      } console.log(string)
-//  }
-
-
-
- //////
-//  HOMEWORK NOTES 
-
-// const digitSum () => {
-//   const numToString = num.tostring().split(" ") = ["4", "3", "4", "5"] 
-//   let count = 0
-//   for(let i = 0; i <numtoArray.length)
-// }
+//Inventory
+//Thom wants to do inventory on his closet. Using bracket notation,
+// log the arrays (not the elements in the arrays) containing all of 
+//Thom's shirts, pants, and accessories.
+const inventory = thomsCloset[0][1][2];
+console.log(thomsCloset[0],thomsCloset[1], thomsCloset[2], thomsCloset[[3]]);
