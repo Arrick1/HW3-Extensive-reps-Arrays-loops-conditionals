@@ -194,12 +194,15 @@ for(i = 1; i < 1000; i++){
 }
 console.log(sum);
 
+//Hungry for more?
+// Triangles
+// declare a variable argument and set it equal to 7.
+// Write a loop that console logs a 
+// "left isosceles" triangle (SEE BELOW) made of '#' 
+// that has the height and length of argument.
 
-    // const sum = 
-    
-// var arguement = 7;
-
-//  while (arguement < 7){
-//      console.log("#");
-//  }
-//      console.log(arguement++)
+var arguement = 7 
+for(i = 0; i< 1; i ++){
+    arguement += "#"
+}
+console.log(arguement)
